@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="nft-background d-flex align-items-center">
+    <figure class="nft-card">
+      <img class="nft-main-image" src="./images/image-equilibrium.jpg" alt="cube-image">
+      <figcaption class="nft-caption">
+        <h1 class="nft-title nft-white-text">Equilibrium #3429</h1>
+        <p class="nft-description nft-soft-blue-text">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="nft-details d-flex">
+          <div class="nft-price d-flex align-items-center">
+            <img class="nft-icon-price margin-right-8" src="images/icon-ethereum.svg" alt="">
+            <p class="nft-eth">0.041 ETH</p>
+          </div>
+          <div class="nft-exp-time d-flex align-items-center">
+            <img class="nft-exp-time-icon margin-right-8" src="./images/icon-clock.svg">
+            <p class="nft-exp-date nft-soft-blue-text">3 days left</p>
+          </div>
+        </div>
+        <hr class="nft-divider">
+        <div class="nft-author d-flex">
+          <div class="nft-final-details d-flex align-items-center"><img class="nft-author-avatar d-flex margin-right-8" src="./images/image-avatar.png" alt="">
+          </div>
+          <div class="nft-final-text d-flex align-items-center"><p class="nft-author-text nft-soft-blue-text">Creation of <span class="nft-white-text">Jules Wyvern</span></p>
+          </div>
+        </div>
+      </figcaption>
+    </figure>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ErriGarcia">ErriGarcia</a>.
+  </div>
+</body>
+</html>
